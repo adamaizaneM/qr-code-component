@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for QR Code and Text */
+.container {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* QR Code Image */
+.qr-code img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Text Styles */
+h1 {
+    font-size: 18px;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 400px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
